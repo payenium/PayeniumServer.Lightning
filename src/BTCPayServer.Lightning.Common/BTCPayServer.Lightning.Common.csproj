@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.0</TargetFrameworks>
+		<RootNamespace>BTCPayServer.Lightning</RootNamespace>
+		<Version>1.2.1</Version>
+		<LangVersion>7.3</LangVersion>
+		<PackageId>BTCPayServer.Lightning.Common</PackageId>
+		<Description>Client library for lightning network implementations to build Lightning Network Apps in C#.</Description>
+		<PackageProjectUrl>https://github.com/btcpayserver/BTCPayServer.Lightning</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/btcpayserver/BTCPayServer.Lightning</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageTags>lightning;bitcoin;clightning;lnd;charge;lapps</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="NBitcoin" Version="5.0.33" />
+		<PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+	</ItemGroup>
+
+</Project>
